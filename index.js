@@ -11,3 +11,5 @@ const fuzzyMatch = (p,q) => p.filter(p => p.charAt(0) === q.charAt(0))
 
 //acces the data structure to check if the name match
 const matchName = (p, q) => p.filter(p => p.name === q)
+
+
